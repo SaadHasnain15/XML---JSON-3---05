@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<coaching>
+    <aptech category="shahrah-e-faisal">
+        <lab category="3-B">
+            <student>
+                <name>M. Ahsan</name>
+                <id>Student: 13559787</id>
+                <num>+9235987841</num>
+            </student>
+            <student>
+                <name>M. Ahmed</name>
+                <id>Student: 1387787</id>
+                <num>+9235985141</num>
+            </student>
+            <student>
+                <name>M. Younus</name>
+                <id>Student: 13559457</id>
+                <num>+9235989861</num>
+            </student>
+        </lab>
+    </aptech>
+    <aptech category="Tariq Road">
+        <lab category="1-B">
+            <student>
+                <name>Subhan Zakir</name>
+                <id>Student: 2659785</id>
+                <num>+92322548789</num>
+            </student>
+            <student>
+                <name>M. Arbaz</name>
+                <id>Student: 14658978</id>
+                <num>+92324549891</num>
+            </student>
+            <student>
+                <name>Syed Usman Shah</name>
+                <id>Student: 32565978</id>
+                <num>+92315489851</num>
+            </student>
+        </lab>
+    </aptech>
+</coaching>
