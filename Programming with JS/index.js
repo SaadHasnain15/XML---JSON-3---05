@@ -11,3 +11,12 @@ let Students = `{Name: "Basit", Age: 20, City: "Karachi"}`;
 
 // JS OBJECT ARRAY
 document.getElementById('object').innerHTML = Students;
+
+//JavaScript String Method
+
+let std = 'Abdul Basit';
+document.getElementById('method').innerHTML = std.length + "<br>" + std.at(8);
+
+let text = "Grande, Civic, Prius";
+let part = text.slice(8 , 15);
+document.getElementById('dem').innerHTML = part + "<br>" + text.length;
