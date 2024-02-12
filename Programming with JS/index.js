@@ -30,3 +30,10 @@ document.getElementById('upper').innerHTML = up + "<br>" + reslt;
 let nw = "Basit, YOUNUS, Mustafa, HASSAAN";
 let lower = nw.toLowerCase();
 document.getElementById('low').innerHTML = nw + "<br>" + lower;
+
+let student = "Abdul Basit";
+let student1 = "&nbsp Hassaan Bagla";
+let student2 = '&nbsp Younus Batoonii';
+let student3 = "&nbsp Mustafa Baglol";
+let total = student.concat("", student1, student2, student3);
+document.getElementById('concat').innerHTML = total + "<br>" + total.length;
