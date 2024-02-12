@@ -20,3 +20,13 @@ document.getElementById('method').innerHTML = std.length + "<br>" + std.at(8);
 let text = "Grande, Civic, Prius";
 let part = text.slice(8 , 15);
 document.getElementById('dem').innerHTML = part + "<br>" + text.length;
+
+// Upper Case
+let up = "basit, younus, mustafa, hassaan";
+let reslt = up.toUpperCase();
+document.getElementById('upper').innerHTML = up + "<br>" + reslt;
+
+// Lower Case
+let nw = "Basit, YOUNUS, Mustafa, HASSAAN";
+let lower = nw.toLowerCase();
+document.getElementById('low').innerHTML = nw + "<br>" + lower;
