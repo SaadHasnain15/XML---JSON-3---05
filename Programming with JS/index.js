@@ -37,3 +37,6 @@ let student2 = '&nbsp Younus Batoonii';
 let student3 = "&nbsp Mustafa Baglol";
 let total = student.concat("", student1, student2, student3);
 document.getElementById('concat').innerHTML = total + "<br>" + total.length;
+let tr = "    Hello Students      ";
+let tri = tr.trim();
+document.getElementById('tr').innerHTML = tr + " " + tr.length + "<br>" + tri + " " + tri.length;
