@@ -40,3 +40,13 @@ document.getElementById('concat').innerHTML = total + "<br>" + total.length;
 let tr = "    Hello Students      ";
 let tri = tr.trim();
 document.getElementById('tr').innerHTML = tr + " " + tr.length + "<br>" + tri + " " + tri.length;
+
+
+let max = "    Hassaan      ";
+let min = max.trimStart();
+let abq = max.trimEnd();
+document.write(max + max.length + "<br>" + min + min.length + "<br>" + abq + abq.length);
+
+let nub = "10";
+let padded = nub.padStart(6, "10");
+document.getElementById('demo').innerHTML = padded;
