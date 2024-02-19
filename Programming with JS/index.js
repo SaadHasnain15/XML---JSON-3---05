@@ -47,6 +47,10 @@ let min = max.trimStart();
 let abq = max.trimEnd();
 document.write(max + max.length + "<br>" + min + min.length + "<br>" + abq + abq.length);
 
-let nub = "10";
-let padded = nub.padStart(6, "10");
+let nub = "Saad";
+let padded = nub.padEnd(10, "Kz");
 document.getElementById('demo').innerHTML = padded;
+
+let untshunt = "Hassaan <br>";
+let rep = untshunt.repeat(5);
+document.getElementById('repeat').innerHTML = untshunt + "<br>" + rep; 
