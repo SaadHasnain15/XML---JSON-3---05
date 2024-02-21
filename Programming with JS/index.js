@@ -53,4 +53,17 @@ document.getElementById('demo').innerHTML = padded;
 
 let untshunt = "Hassaan <br>";
 let rep = untshunt.repeat(5);
-document.getElementById('repeat').innerHTML = untshunt + "<br>" + rep; 
+document.getElementById('repeat').innerHTML = untshunt + "<br>" + rep;
+
+//String Replace Method
+let repl = "Hassaan, Younus, Mustafa";
+let newrepl = repl.replace("Hassaan", "Hassaan Shahzad");
+let again = repl.replace("Younus", "Abdul Basit");
+
+document.getElementById('replace').innerHTML = repl + "<br>" + newrepl + "<br>" + again;
+
+//ARRAY METHOD
+const arr = ["Mustafa", "Hassaan", "Younus"];
+let aa = arr.length;
+let ab = arr.toString();
+document.getElementById('arr').innerHTML = aa + "<br>" + arr + "<br>" + ab.length;
