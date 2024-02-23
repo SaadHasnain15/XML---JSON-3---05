@@ -62,8 +62,29 @@ let again = repl.replace("Younus", "Abdul Basit");
 
 document.getElementById('replace').innerHTML = repl + "<br>" + newrepl + "<br>" + again;
 
-//ARRAY METHOD
+//ARRAY TOSTRING METHOD
 const arr = ["Mustafa", "Hassaan", "Younus"];
 let aa = arr.length;
 let ab = arr.toString();
 document.getElementById('arr').innerHTML = aa + "<br>" + arr + "<br>" + ab.length;
+
+
+//ARRAY AT METHOD
+let at = ['Abdul Basit', 'Hassaan Shazad', 'Mustafa'];
+let check = at[1];
+document.getElementById('at').innerHTML = check;
+
+//ARRAY JOIN METHOD
+let john = ['Younus', 'Mustafa', 'Hassaan', 'Basit', ''];
+let res = john.join(' Tm Bhii Student Ho <br><hr> ');
+document.getElementById('join').innerHTML = res;
+
+//ARRAY POP METHOD
+let pop = ['Hassaan', 'Basit', 'Mustafa', 'Younus'];
+let checking = pop.pop();
+document.getElementById('pop').innerHTML = pop + "<br>" + checking;
+
+//ARRAY PUSH METHOD
+let metro = ['Fruits', 'Rice', 'Flour', 'Sugar'];
+let missed = metro.push("Spices");
+document.getElementById('push').innerHTML = metro;
