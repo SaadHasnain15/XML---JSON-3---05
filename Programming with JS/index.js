@@ -88,3 +88,9 @@ document.getElementById('pop').innerHTML = pop + "<br>" + checking;
 let metro = ['Fruits', 'Rice', 'Flour', 'Sugar'];
 let missed = metro.push("Spices");
 document.getElementById('push').innerHTML = metro;
+
+let meth = ['Mustafa', 'Idrees', 'Younus', 'Basit'];
+meth.unshift('Wording');
+let newmeth = meth.unshift('Hassaan');
+document.getElementById('unshift').innerHTML = meth;
+document.getElementById('unshift1').innerHTML = newmeth;
