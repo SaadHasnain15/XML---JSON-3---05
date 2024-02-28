@@ -94,3 +94,21 @@ meth.unshift('Wording');
 let newmeth = meth.unshift('Hassaan');
 document.getElementById('unshift').innerHTML = meth;
 document.getElementById('unshift1').innerHTML = newmeth;
+
+let dell = ['Ermin', 'Safwan', 'Murtaza', 'Hamza', 'Ahmed'];
+
+document.getElementById('delete').innerHTML = "First Index Of Array Element Is: " + dell[0] + "<br>";
+
+delete dell[0];
+
+document.getElementById('delete1').innerHTML = "First Index Of Array Element Is: " + dell[0] + "<br>";
+
+dell[0] = "Younus";
+
+document.getElementById('delete2').innerHTML = "The Changed Element Of Array Index Is: " + dell[0] + "<br>";
+
+let conc = ['Games', 'Study', 'Movie', 'Books'];
+let con = ['Students', 'Teachers', 'Schools', 'Collages'];
+let anc = ['Hassaan', 'Mustafa', 'Yousuf', 'Basit'];
+let xzy = conc.concat("<br>" + con + "<br>" + anc);
+document.getElementById('delete3').innerHTML = xzy;
