@@ -117,3 +117,12 @@ document.getElementById('delete3').innerHTML = xzy;
 let x  = ['Mango', 'Banana', 'Kiwi'];
 let z = x.copyWithin(2,0,1);
 document.getElementById('copy').innerHTML = z;
+
+let ek = [['Younus'], ['Biscuit'], ['Moo'], ['Me'], ['Le'], ['Lo']];
+
+let doosra = ek.flat();
+
+let teesra = doosra.join(' ');
+
+document.getElementById('flat').innerHTML = teesra;
+
