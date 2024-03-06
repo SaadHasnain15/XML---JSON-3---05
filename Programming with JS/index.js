@@ -126,3 +126,15 @@ let teesra = doosra.join(' ');
 
 document.getElementById('flat').innerHTML = teesra;
 
+
+//JS ARROW FUNCTION
+
+let arrow = (x, y) => (x / y);
+document.getElementById('arrow').innerHTML = arrow(5, 10);
+
+let jalwa = "";
+
+jalwa = () =>{
+    return "HELLO STUDENTS";
+}
+document.getElementById('arow').innerHTML = jalwa();
