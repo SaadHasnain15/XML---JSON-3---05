@@ -112,3 +112,8 @@ let con = ['Students', 'Teachers', 'Schools', 'Collages'];
 let anc = ['Hassaan', 'Mustafa', 'Yousuf', 'Basit'];
 let xzy = conc.concat("<br>" + con + "<br>" + anc);
 document.getElementById('delete3').innerHTML = xzy;
+
+//Array CopyWithin Method
+let x  = ['Mango', 'Banana', 'Kiwi'];
+let z = x.copyWithin(2,0,1);
+document.getElementById('copy').innerHTML = z;
