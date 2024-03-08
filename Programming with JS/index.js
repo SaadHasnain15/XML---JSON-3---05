@@ -138,3 +138,17 @@ jalwa = () =>{
     return "HELLO STUDENTS";
 }
 document.getElementById('arow').innerHTML = jalwa();
+
+//JavaScript This Keyword
+
+let Student = {
+    First_Name: "Hassaan",
+    Last_Name: "Bagla",
+    Address: "APTECH TR",
+    PHONE: '923001122335',
+    Email: 'xyz12@gmail.com',
+    Full_Name: function(){
+        return "Full Name: " + this.First_Name + " " + this.Last_Name + " <br><hr>" + "Email: " + this.Email;
+    }
+}
+document.getElementById('this').innerHTML = Student.Full_Name();
