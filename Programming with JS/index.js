@@ -151,4 +151,5 @@ let Student = {
         return "Full Name: " + this.First_Name + " " + this.Last_Name + " <br><hr>" + "Email: " + this.Email;
     }
 }
+
 document.getElementById('this').innerHTML = Student.Full_Name();
