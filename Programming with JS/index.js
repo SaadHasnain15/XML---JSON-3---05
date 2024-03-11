@@ -153,3 +153,23 @@ let Student = {
 }
 
 document.getElementById('this').innerHTML = Student.Full_Name();
+
+//JavaScript Errors
+function Errors(){
+    let err = document.getElementById('error');
+    err.innerHTML = "";
+    let x = document.getElementById('input').value;
+    
+    //Starting JavaScript Error
+
+    try{
+        if(x.trim() == "") throw "Empty";
+        if(isNaN(x)) throw "Not a Number";
+        x = Number(x);
+        if(x < 10) throw "a Lowest Number";
+        if(x > 10) throw "a Highest Number";
+    }
+    catch(error){
+        err.innerHTML = "Input is " + error;
+    }
+}
